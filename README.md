@@ -49,7 +49,7 @@ npm install
 Inicie o servidor em modo de desenvolvimento:
 
 ```bash
-npm run dev
+npm run start:dev
 ```
 
 Se tudo estiver configurado, o terminal deverá exibir:
@@ -63,14 +63,9 @@ Mantenha esse terminal aberto enquanto testa a API.
 Para verificar os erros de TypeScript e gerar os arquivos JavaScript:
 
 ```bash
-npm run build
+npm run bstart:dist
 ```
-
-Depois da compilação, execute a versão gerada com:
-
-```bash
-npm start
-```
+Após isso será gerado uma pasta "dist/" e ja será executado o arquivo JavaScript
 
 ## 3. Endpoints
 
