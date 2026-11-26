@@ -63,7 +63,7 @@ Mantenha esse terminal aberto enquanto testa a API.
 Para verificar os erros de TypeScript e gerar os arquivos JavaScript:
 
 ```bash
-npm run bstart:dist
+npm run start:dist
 ```
 Após isso será gerado uma pasta "dist/" e ja será executado o arquivo JavaScript
 
